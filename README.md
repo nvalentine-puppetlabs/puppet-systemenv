@@ -1,4 +1,4 @@
-puppet-systemenv
-================
+puppet-envvar
+=============
 
-Puppet module for managing system environment variables
+Manage environment variables
