@@ -21,7 +21,7 @@
   "checksums": {
     "LICENSE": "19cbd64715b51267a47bf3750cc6a8a5",
     "Modulefile": "9ad7a32589aa206182fed5dd47c69d77",
-    "README.md": "f180b9d24ff59d98af231f9dc6c1a2be",
+    "README.md": "5588f16ae6fb97fe7772884a53053e51",
     "manifests/init.pp": "059a05a832a500d2ee4ee56153ebbd55",
     "manifests/params.pp": "cdc6c4ff5e5f50a086ae77040dad4e2e",
     "manifests/var.pp": "66bfb6dde539b11be11c0b651721734d",
