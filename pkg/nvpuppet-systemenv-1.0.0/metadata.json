@@ -1,0 +1,30 @@
+{
+  "name": "nvpuppet-systemenv",
+  "version": "1.0.0",
+  "source": "git://github.com/nvalentine-puppetlabs/puppet-systemenv.git",
+  "author": "Nathan Valentine - nathan@puppetlabs.com",
+  "license": "Apache 2.0",
+  "summary": "Manage system environment variables",
+  "description": "Manage system environment variables",
+  "project_page": "https://github.com/nvalentine-puppetlabs/puppet-systemenv",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdblib"
+    },
+    {
+      "name": "puppetlabs-inifile"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "LICENSE": "19cbd64715b51267a47bf3750cc6a8a5",
+    "Modulefile": "9ad7a32589aa206182fed5dd47c69d77",
+    "README.md": "eb14eeabef4118915f952e46bd2f3e60",
+    "manifests/init.pp": "059a05a832a500d2ee4ee56153ebbd55",
+    "manifests/params.pp": "cdc6c4ff5e5f50a086ae77040dad4e2e",
+    "manifests/var.pp": "66bfb6dde539b11be11c0b651721734d",
+    "tests/init.pp": "e6e6bcc9410a422afe0012a29afe134a"
+  }
+}

@@ -1,0 +1,11 @@
+name    'nvpuppet-systemenv'
+version '1.0.0'
+source 'git://github.com/nvalentine-puppetlabs/puppet-systemenv.git'
+author 'Nathan Valentine - nathan@puppetlabs.com'
+license 'Apache 2.0'
+summary 'Manage system environment variables'
+description 'Manage system environment variables'
+project_page 'https://github.com/nvalentine-puppetlabs/puppet-systemenv'
+
+dependency 'puppetlabs-stdblib'
+dependency 'puppetlabs-inifile'
