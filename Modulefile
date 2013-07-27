@@ -7,5 +7,5 @@ summary 'Manage system environment variables'
 description 'Manage system environment variables'
 project_page 'https://github.com/nvalentine-puppetlabs/puppet-systemenv'
 
-dependency 'puppetlabs/stdblib', '> 0.0.0'
+dependency 'puppetlabs/stdlib', '> 0.0.0'
 dependency 'puppetlabs/inifile', '> 0.0.0'
