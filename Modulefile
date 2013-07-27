@@ -1,5 +1,5 @@
 name    'nvpuppet-systemenv'
-version '1.0.0'
+version '1.0.1'
 source 'git://github.com/nvalentine-puppetlabs/puppet-systemenv.git'
 author 'Nathan Valentine - nathan@puppetlabs.com'
 license 'Apache 2.0'
