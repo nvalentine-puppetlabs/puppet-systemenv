@@ -5,7 +5,7 @@ Manage system environment variables. Currently that involves
 managing entries in /etc/environment.
 
 # Contact
-Nathan Valentine - nathan@puppetlabs | nrvale0@gmail.com
+Nathan Valentine - nathan@puppetlabs.com | nrvale0@gmail.com
 
 # Usage
     include systemenv
