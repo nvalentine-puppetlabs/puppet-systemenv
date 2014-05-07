@@ -7,7 +7,9 @@ define systemenv::var (
 
   validate_re($ensure, '^present|absent$')
   validate_re($varname, '^[a-zA-Z][a-zA-Z0-9_]+')
-  validate_re($value, '(^\'.*\'$)|(^\"\.*\"$)')
+  if $ensure != 'absent' {
+    validate_re($value, '(^\'.*\'$)|(^\"\.*\"$)')
+  }
   
   $target = $systemenv::params::default_env_settings_file
   validate_absolute_path($target)
