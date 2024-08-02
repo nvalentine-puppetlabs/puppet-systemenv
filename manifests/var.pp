@@ -1,16 +1,12 @@
 define systemenv::var (
-  $ensure = 'present',
-  $varname = $name,
-  $value = undef,
+  Enum['present','absent'] $ensure                    = 'present',
+  Optional[Pattern[/^[a-zA-Z][a-zA-Z0-9_]+/]] $varname = $name,
+  Optional[Pattern[/(^\'.*\'$)|(^\"\.*\"$)/]] $value   = undef,
 ) {
   require systemenv
-
-  validate_re($ensure, '^present|absent$')
-  validate_re($varname, '^[a-zA-Z][a-zA-Z0-9_]+')
-  validate_re($value, '(^\'.*\'$)|(^\"\.*\"$)')
   
   $target = $systemenv::params::default_env_settings_file
-  validate_absolute_path($target)
+  assert_type(Stdlib::Absolutepath, $target)
 
   ini_setting { "${varname}=${value}":
     ensure => $ensure,
